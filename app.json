@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Interview Tracker",
+    "slug": "interview-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5fba34bd-e351-47a1-9e3f-198a04adeb62"
+      }
+    }
+  }
+}
