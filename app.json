@@ -9,13 +9,12 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.nadav770.interviewtracker",
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
       }
@@ -24,6 +23,22 @@
       "eas": {
         "projectId": "5fba34bd-e351-47a1-9e3f-198a04adeb62"
       }
-    }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5fba34bd-e351-47a1-9e3f-198a04adeb62"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "2.0.21"
+          }
+        }
+      ]
+    ]
   }
 }
